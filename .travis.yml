@@ -3,11 +3,8 @@ sudo: false
 language: ruby
 rvm:
   - jruby-9.1.15.0
-  - jruby-1.7.27
   - jruby-9.2.8.0
 jdk:
   - openjdk11
   - openjdk8
-  - oraclejdk8
-  - openjdk7
 script: jruby jrbug.rb
