@@ -1,0 +1,20 @@
+dist: bionic
+sudo: false
+language: ruby
+rvm:
+  - jruby-9.1.15.0
+  - jruby-1.7.27
+  - jruby-9.2.4.0
+  - jruby-9.2.5.0
+  - jruby-9.2.6.0
+  - jruby-9.2.7.0
+  - jruby-9.2.8.0
+jdk:
+  - openjdk13
+  - openjdk12
+  - openjdk11
+  - openjdk10
+  - oraclejdk9
+  - oraclejdk8
+  - openjdk7
+script: jruby jrbug.rb
